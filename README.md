@@ -11,8 +11,8 @@ How to run:
 - run `./mvnw spring-boot:run` 
 
 After the application finishes loading navigate to 
-`http://localhost:8080/videos/{name of video in videos directory}`
+`http://localhost:8080/video/{name of video in videos directory}`
 
-For example the sample video is called Kevon-Carter.mp4 so the link to resource will be
-`http://localhost:8080/videos/Kevon-Carter.mp4`
+Upload video
 
+![Upload Postman Racing](docs/upload_postman.PNG)

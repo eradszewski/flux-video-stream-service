@@ -3,7 +3,21 @@ spring:
         cache: false
     webflux:
         static-path-pattern: /**
+
+    servlet:
+      multipart:
+        enabled: true
+  # Threshold after which files are written to disk.
+        file-size-threshold: 2KB
+  # Max file size.
+        max-file-size: 200MB
+  # Max Request Size
+        max-request-size: 215MB
+## File Storage Properties
+# All files uploaded through the REST API will be stored in this directory
+file:
+  upload-dir: video
 video:
-    location: videos
+    location: video
 server:
     port: 8081

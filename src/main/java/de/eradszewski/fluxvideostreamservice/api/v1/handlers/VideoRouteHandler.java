@@ -27,8 +27,7 @@ public class VideoRouteHandler {
 
     public Mono<ServerResponse> getPartialVideoByName(ServerRequest request) {
 
-        String name = request.pathVariable("name");
-        System.out.println(request.path());
+        String name = request.pathVariable("name") + ".mp4";
         HttpHeaders requestHeaders = request.headers().asHttpHeaders();
 
         UrlResource video = videoService.getResourceByName(name);
