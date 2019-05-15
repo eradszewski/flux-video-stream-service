@@ -1,0 +1,9 @@
+spring:
+    thymeleaf:
+        cache: false
+    webflux:
+        static-path-pattern: /**
+video:
+    location: videos
+server:
+    port: 8081
