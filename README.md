@@ -2,11 +2,12 @@
 
 Video streaming implemented with Spring WebFLux.
 
-> All videos should be placed in the videos directory.
+> All videos should be placed in the video directory.
 
 How to run:
 -
 - Clone the project
+- create a video folder inside of the Project
 - in your terminal `cd path/to/directory`
 - run `./mvnw spring-boot:run` 
 
