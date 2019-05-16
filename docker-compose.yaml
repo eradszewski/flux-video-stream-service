@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+  flux-video-stream-service:
+    image: dev/streaming:latest
+    ports:
+      - 8081:8081
+    environment:
+      SPRING_PROFILES_ACTIVE: 'docker'

@@ -1,0 +1,4 @@
+file:
+  upload-dir: /video
+video:
+    location: /video
